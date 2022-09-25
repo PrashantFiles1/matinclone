@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+# (c) @Md_Matin_Ashraf
 
 import os
 
@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/cyniteofficial'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/cyniteofficial'>Movie Search Robot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -34,22 +34,22 @@ If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
     HOME_TEXT = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Movie Search Robot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+<a>Made With ❤ By @Movie_Matin</a></b>
 """
 
 
     START_MSG = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+I'm Movie Search Robot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+<a>Made With ❤ By @Movie_Matin</a></b>
 """
 
 
