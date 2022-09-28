@@ -23,7 +23,7 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/Movie_Matin'>Cynite</a></b>
+👨‍💻 Created By: <a href='https://t.me/Movie_Matin'>Moviematin</a></b>
 """
 
     ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/Movie_Matin'>Click Me</a>
