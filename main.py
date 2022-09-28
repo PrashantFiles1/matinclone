@@ -39,7 +39,7 @@ async def help_handler(_, event: Message):
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("Our Channel", url="https://t.me/Movie_Matin"),
-             InlineKeyboardButton("Our Group", url="https://t.me/vivdiskmoviesgroup"), 
+             InlineKeyboardButton("Our Group", url="https://t.me/Movie_Matin"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -78,7 +78,7 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("Our Channel", url="https://t.me/Movie_Matin"),
-						InlineKeyboardButton("Join", url="https://t.me/vivdiskmoviesgroup")
+						InlineKeyboardButton("Join", url="https://t.me/Movie_Matin")
 					],
 					[
 						InlineKeyboardButton("Creator", url="https://t.me/Movie_Matin"),
@@ -117,7 +117,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/vivdiskmoviesgroup"),
+						InlineKeyboardButton("Support", url="https://t.me/Movie_Matin"),
 						InlineKeyboardButton("Channel", url="https://t.me/Movie_Matin")
 					]
 				]
