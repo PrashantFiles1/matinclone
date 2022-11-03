@@ -13,7 +13,7 @@ async def ForceSub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="You Are Ban To Use Me. Contact My [Owner](https://t.me/RoyalKrrishna).",
+                text="You Are Ban To Use Me. Contact My [Owner](https://t.me/Md_Matin_Ashraf).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
