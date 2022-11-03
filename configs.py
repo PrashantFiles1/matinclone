@@ -23,18 +23,18 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/Movie_Matin'>Moviematin</a></b>
+👨‍💻 Created By: <a href='https://t.me/Md_Matin_Ashraf'>MD</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/Movie_Matin'>Click Me</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/Md_Matin_Ashraf'>Click Me</a>
 
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
 
     HOME_TEXT = """
-<b>Hey! {}😅,
+<b>Hey! Meri Jaan {}😅,
 
-I'm Movie Search Robot.🤖</a>
+I'm Powerfull Movie Search Robot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
@@ -43,9 +43,9 @@ I Can Search 🔍 What You Want❗
 
 
     START_MSG = """
-<b>Hey! {}😅,
+<b>Hey! Meri Jaan {}😅,
 
-I'm Movie Search Robot.🤖</a>
+I'm Powerfull Movie Search Robot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
