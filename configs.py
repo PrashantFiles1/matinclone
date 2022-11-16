@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Movie Search Bot.
 
-🤖 My Name: <a href='https://t.me/Movie_Matin'>Movie Search Robot</a>
+🤖 My Name: <a href='https://t.me/Newmoviespost_bot'>Movie Search Robot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -47,7 +47,7 @@ I Can Search 🔍 What You Want❗
 
 I'm Powerfull Movie Search Robot.🤖</a>
 
-I Can Search 🔍 What You Want❗
+I Can Search 🔍 What You Want❗If Any Movie Not Available 👻 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗛𝗲𝗿𝗲 @MoviesandwebseriesrequestBot
 
 <a>Made With ❤ By @Movie_Matin</a></b>
 """
