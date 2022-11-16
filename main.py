@@ -28,7 +28,7 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/1c37f5b30a5d7a3f43fb5.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Our Channel", url="https://t.me/+sl1K-NC2IyZmOTg1"),
+                                    [InlineKeyboardButton("𝖭𝖾𝗐 𝖬𝗈𝗏𝗂𝖾𝗌 𝖧𝖾𝗋𝖾", url="https://t.me/+sl1K-NC2IyZmOTg1"),
                                      InlineKeyboardButton("Creator", url="https://t.me/Md_Matin_Ashraf")],
                                     [InlineKeyboardButton("Help", callback_data="Help_msg"),
                                      InlineKeyboardButton("About", callback_data="About_msg")]]))
@@ -38,7 +38,7 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/+sl1K-NC2IyZmOTg1"),
+            [InlineKeyboardButton("𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Movie_Matin"),
              InlineKeyboardButton("Our Group", url="https://t.me/I_Popcorn_Movie_Group"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
@@ -48,7 +48,7 @@ async def help_handler(_, event: Message):
 async def inline_handlers(_, event: Message):
     if event.text == '/start':
         return
-    answers = f'**📂 Results For ➠ {event.text} \n\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n➠ Type Only Movie Name With Correct Spelling.✍️\n➠ Add Year For Better Result.🗓️\n➠ Request Group https://t.me/New_Movies_Request_Group_fast. 🤝\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
+    answers = f'**📂 Results For ➠ {event.text} \n\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n➠ 👻 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗛𝗲𝗿𝗲 @𝗠𝗼𝘃𝗶𝗲𝘀𝗮𝗻𝗱𝘄𝗲𝗯𝘀𝗲𝗿𝗶𝗲𝘀𝗿𝗲𝗾𝘂𝗲𝘀𝘁𝗕𝗼𝘁\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n\n**'
     async for message in User.search_messages(chat_id=Config.CHANNEL_ID, limit=50, query=event.text):
         if message.text:
             thumb = None
@@ -77,11 +77,11 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Our Channel", url="https://t.me/Movie_Matin"),
-						InlineKeyboardButton("Join", url="https://t.me/I_Popcorn_Movie_Group")
+						InlineKeyboardButton("𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Movie_Matin"),
+						InlineKeyboardButton("𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾", url="https://t.me/movieupdatewebseriesupdate")
 					],
 					[
-						InlineKeyboardButton("Creator", url="https://t.me/Md_Matin_Ashraf"),
+						InlineKeyboardButton("Creator", url="https://t.me/AboutMdMatinAshraf"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -96,10 +96,10 @@ async def button(bot, cmd: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/Movie_Matin")
+						InlineKeyboardButton("𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖾𝗋𝖾", url="https://t.me/MoviesandwebseriesrequestBot")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/Md_Matin_Ashraf"),
+						InlineKeyboardButton("Owner", url="https://t.me/AboutMdMatinAshraf"),
 						InlineKeyboardButton("Home", callback_data="gohome")
 					]
 				]
@@ -117,8 +117,8 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/New_Movies_Request_Group_fast"),
-						InlineKeyboardButton("Channel", url="https://t.me/Movie_Matin")
+						InlineKeyboardButton("𝖬𝗈𝗏𝗂𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/+sl1K-NC2IyZmOTg1"),
+						InlineKeyboardButton("Group", url="https://t.me/I_Popcorn_Movie_Group")
 					]
 				]
 			),
