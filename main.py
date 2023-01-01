@@ -28,7 +28,7 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/1c37f5b30a5d7a3f43fb5.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("𝖭𝖾𝗐 𝖬𝗈𝗏𝗂𝖾𝗌 𝖧𝖾𝗋𝖾", url="https://t.me/+sl1K-NC2IyZmOTg1"),
+                                    [InlineKeyboardButton("𝖭𝖾𝗐 𝖬𝗈𝗏𝗂𝖾𝗌 𝖧𝖾𝗋𝖾", url="https://t.me/Pathan_2023_Link"),
                                      InlineKeyboardButton("Creator", url="https://t.me/Md_Matin_Ashraf")],
                                     [InlineKeyboardButton("Help", callback_data="Help_msg"),
                                      InlineKeyboardButton("About", callback_data="About_msg")]]))
@@ -117,7 +117,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("𝖬𝗈𝗏𝗂𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/+sl1K-NC2IyZmOTg1"),
+						InlineKeyboardButton("𝖬𝗈𝗏𝗂𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Pathan_2023_Link"),
 						InlineKeyboardButton("Group", url="https://t.me/I_Popcorn_Movie_Group")
 					]
 				]
