@@ -1,6 +1,7 @@
-# Mdisk Search Bot
+# Vivdisk Search Bot
 
-We have to use Bot for Inline Search & Userbot for Searching in Channels. So both Bot & Userbot will work together.
+<p align="center">
+  <img src="https://te.legra.ph/file/b32a1c177e0a27eea667f.jpg" alt="Vivdisk Search Bot">
 
 ## Installation
 
