@@ -13,14 +13,11 @@ We have to use Bot for Inline Search & Userbot for Searching in Channels. So bot
 </p>
 </details>
 
-<details>
-  <summary><b>Deploy to Railway</b></summary>
-<br/>
-
-<p align="left">
-<a href="https://railway.app/deploy?template=https%3A%2F%2Fgithub.com%2FPredatorHackerzZ%2FMessageSearchBot"
-">
-     <img height="30px" src="https://railway.app/button.svg">
+<details><summary>Deploy To Koyeb</summary>
+ <p>
+   <pre>gunicorn app:app & python3 main.py</pre>
+ <br>
+ <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/PrashantFiles1/matinclone&branch=main&name=matinclone"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
   </a>
 </p>
 </details>
