@@ -1,7 +1,7 @@
 # Vivdisk Search Bot
 
 <p align="center">
-  <img src="https://te.legra.ph/file/b32a1c177e0a27eea667f.jpg" alt="Vivdisk Search Bot">
+   <img src="[https://te.legra.ph/file/a85d7a62a0f18de6dc562.jpg)" alt="Vivdisk Search Bot  logo">
 
 ## Installation
 
