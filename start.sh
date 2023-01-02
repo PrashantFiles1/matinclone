@@ -1,6 +1,6 @@
 echo "Cloning Repo...."
-git clone github.com/PrashantFiles1/matinclone.git /VivdiskSearchBot
-cd /MdiskSearchBot
-pip3 install -r requirements.txt
-echo "Starting Bot...."
+git clone https://github.com/PrashantFiles1/matinclone
+cd /PrashantLinksBOT
+pip3 install -U -r requirements.txt
+echo "⚡️⚡️ Starting matinclone..."
 python3 main.py
